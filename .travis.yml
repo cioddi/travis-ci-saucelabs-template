@@ -1,6 +1,10 @@
 language: php
 php:
   - 5.3
+env:
+  global:
+    - secure: jY03DSc3MsMTkmKsZtKliqYSvqzgVxScmH9MADuwsdXasWuGo0MxYFHkMZgD7mnWsI66GZomX8s7u3alNXO9nwCW1vChM3XcOSxQSZwwjyZ7COOteu9lMM/eaS79Xu2trH7Mptq2Xx/a0gIt78s6Io+1n+loJax8npy1i1YsRJ4=
+    - secure: mPNdV9hIJg3ad9E1qJecrFRrtzn8/2vyZ+pM++SkoUCRpkvZ8FeG4b3SPX9g++76oMZW3nNJH++G8S3hitlo+HhgWbYiitMwKVp+OZV8bcREBADsiwCmE0JjS2SdO/zL6Mkh9fsVMg28k3qtejRcfuSj6MWjCbdIiiC8bAQYxn0=
 
 before_script:
   - ./tests/setup/before_script.sh
