@@ -2,6 +2,9 @@
 
 [![Build Status](https://travis-ci.org/cioddi/travis-ci-saucelabs-template.png)](https://travis-ci.org/cioddi/travis-ci-saucelabs-template)
 
+[![Selenium Test Status](https://saucelabs.com/browser-matrix/saucelabstemplate.svg)](https://saucelabs.com/u/saucelabstemplate)
+
+
 simple template for functional php tests using travis-ci and saucelabs
 
 
