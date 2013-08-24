@@ -14,5 +14,16 @@ travis encrypt SAUCE_USERNAME={SAUCELABS_USERNAME} -r {GITHUB_USERNAME}/{GITHUB_
 travis encrypt SAUCE_ACCESS_KEY={SAUCE_ACCESS_TOKEN} -r {GITHUB_USERNAME}/{GITHUB_REPOSITORY_NAME}
 ```
 
+and insert the encrypted values into your .travis.yml
+
+```
+env:
+  global:
+    - secure: {ENCRYPTED_USERNAME}
+    - secure: {ENCRYPTED_ACCESS_TOKEN}
+```
+
+You will be able to access them within the travis test server as environment variables (SAUCE_USERNAME, SAUCE_ACCESS_KEY)
+
 ##MIT license
 Copyright (c) 2013 Max Tobias Weber
